@@ -12,3 +12,5 @@ Par suite je donne quelques croquis de l'appli ainsi que du code.
 # <img width="722" alt="image" src="https://github.com/user-attachments/assets/4f6f7d79-3755-4ffd-9182-61eeefc6d621" />
 # Capture du code de la classe PatientController est la suivante :
 # <img width="580" alt="image" src="https://github.com/user-attachments/assets/fda7b8a7-d840-4e19-9012-1bccac893feb" />
+Voici image de fin de la partie 1.
+# <img width="923" alt="image" src="https://github.com/user-attachments/assets/a9a40a96-1d19-48e0-a63a-6da8c93f84f4" />
