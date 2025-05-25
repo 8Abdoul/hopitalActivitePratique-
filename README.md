@@ -1,4 +1,4 @@
-# hopitalActivité-
+# Hopital_Activité
 Dans la première partie de ce projet de developpement d'une appli de gestions de patients avec  Spring MVC, Thylemeaf et Spring Data JPA.On a fait en sorte que l'appli ait ces différentes fonctionnalités:
 - Afficher les patients
 - Faire la pagination
