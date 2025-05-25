@@ -22,6 +22,11 @@ Pour la pagination on a eu à utiliser ce code:
 # <img width="721" alt="image" src="https://github.com/user-attachments/assets/3bce75fd-3aea-44d1-8256-ab3d4a037565" />
 Et par suite : 
 # <img width="841" alt="image" src="https://github.com/user-attachments/assets/167786a9-4d0e-4681-8bf2-b75808f27a4a" />
+Puis lorqsqu'on clique sur le bouton modifier on attérit sur la page suivante:
+# <img width="949" alt="image" src="https://github.com/user-attachments/assets/cc0ef272-b715-4a4c-bcd1-c4b9065b2a40" />
+Un bloc de code pour editPatients:
+# <img width="519" alt="image" src="https://github.com/user-attachments/assets/45c03090-c9c5-439e-b794-64499aea38bb" />
+
 
 
 
