@@ -3,6 +3,8 @@ package cours2.hospitalweb.web;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.ui.Model;
 import cours2.hospitalweb.entities.Patient;
 import cours2.hospitalweb.repositories.PatientRepository;
@@ -37,10 +39,12 @@ public class PatientController {
     }
 
     @GetMapping("/admin/delete")
-    public String delete( @RequestParam Long id, @RequestParam(defaultValue = "") String kw,
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public String delete( @RequestParam Long id,
+                          @RequestParam(defaultValue = "") String kw,
                           @RequestParam(defaultValue = "0")int page) {
         patientRepository.deleteById(id);
-        return "redirect:/patients?p=" + page + "&keyword=" + kw;
+        return "redirect:/user/patients?p=" + page + "&keyword=" + kw;
     }
 
 
@@ -61,6 +65,7 @@ public class PatientController {
         return "formPatients";
     }
 @PostMapping(path = "/save")
+@PreAuthorize("hasRole('ROLE_ADMIN')")
     public  String save(Model model, @Valid Patient patient, BindingResult bindingResult,
                         @RequestParam(defaultValue = "0") int page,
                         @RequestParam(defaultValue = "") String kw) {
@@ -70,6 +75,8 @@ public class PatientController {
         return "redirect:/patients?page=" + page + "&keyword=" + kw;
     }
     @GetMapping("/admin/editPatients")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+
     public String editPatient(Model model,
                               @RequestParam Long id,
                               @RequestParam(name = "page", defaultValue = "0") int page,
