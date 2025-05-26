@@ -26,6 +26,11 @@ Puis lorqsqu'on clique sur le bouton modifier on attérit sur la page suivante:
 # <img width="949" alt="image" src="https://github.com/user-attachments/assets/cc0ef272-b715-4a4c-bcd1-c4b9065b2a40" />
 Un bloc de code pour editPatients:
 # <img width="519" alt="image" src="https://github.com/user-attachments/assets/45c03090-c9c5-439e-b794-64499aea38bb" />
+Par suite avec spring security, on a eu à faire une authentification pour les deifférents users du système:
+# <img width="480" alt="image" src="https://github.com/user-attachments/assets/174b236b-01bd-4f90-a79f-bcac10a1177b" />
+Voici des morceaux de code qui ont permis à faire l'authentification:
+# <img width="877" alt="image" src="https://github.com/user-attachments/assets/7030174e-8e38-455a-831c-61594012e0af" />
+
 
 
 
